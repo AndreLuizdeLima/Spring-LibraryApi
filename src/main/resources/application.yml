@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: libraryapi
+  datasource:
+    url: idbc:postgres://localhost:5432/pg_local
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Drive
